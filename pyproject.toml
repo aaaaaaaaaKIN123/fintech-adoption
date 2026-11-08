@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fintech-adoption-research"
+version = "0.1.0"
+description = "Auditable FinTech adoption measurement from bilingual bank annual reports"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "kin"}]
+dependencies = [
+  "numpy>=1.26,<3", "pandas>=2.2,<3", "scipy>=1.12,<2",
+  "scikit-learn>=1.4,<2", "tqdm>=4.66,<5",
+]
+
+[project.optional-dependencies]
+embeddings = ["sentence-transformers>=2.7,<6"]
+pdf = ["pymupdf>=1.24", "pymupdf4llm>=1.28", "pdfplumber>=0.11", "pypdf>=4"]
+openai = ["openai>=1.68,<3"]
+anthropic = ["anthropic>=0.28,<1"]
+dev = ["pytest>=8,<10", "ruff>=0.9,<1", "build>=1.2,<2"]
+
+[project.scripts]
+fta = "fintech_adoption.pipeline:main"
+fta-demo = "fintech_adoption.demo:main"
+
+[project.urls]
+Repository = "https://github.com/aaaaaaaaaKIN123/fintech-adoption"
+Issues = "https://github.com/aaaaaaaaaKIN123/fintech-adoption/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E9", "F"]

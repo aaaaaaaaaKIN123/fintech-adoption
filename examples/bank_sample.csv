@@ -1,0 +1,2 @@
+bank_id,bank_name,include_in_main_sample
+DEMO_BANK,Synthetic example bank,true
