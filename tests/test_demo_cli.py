@@ -12,7 +12,7 @@ def test_offline_demo_completes_under_windows_encoding(tmp_path):
     env["PYTHONIOENCODING"] = "cp1258"
     result = subprocess.run(
         [sys.executable, "-m", "fintech_adoption.demo", "--output", str(tmp_path)],
-        cwd=root, env=env, capture_output=True, text=True, check=False,
+        cwd=root, env=env, capture_output=True, text=True, encoding="cp1258", check=False,
     )
     assert result.returncode == 0, result.stderr
     output = json.loads((tmp_path / "DEMO_BANK_2023_demo_result.json").read_text(encoding="utf-8"))

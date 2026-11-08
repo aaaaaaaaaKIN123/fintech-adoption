@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "created_at": "2026-11-08T09:49:01.375149+00:00",
+  "created_at": "2026-11-08T09:52:26.561274+00:00",
   "builder": "tools/package_release.py",
   "inputs_sha256": {
     "src/aggregator.py": "98857d82a6e4f2b4e29eaa1ab70fd876690c2ec834a5c7dc0cb8790c08b9daab",
@@ -31,7 +31,7 @@
     "tests/test_baseline_indices.py": "dc2cf1a39b388e10062f5fe46e71b72ac7af896fb0ad5528cbe312723ea068ae",
     "tests/test_build_fta_panel_gate.py": "5291c19674cf4b9a979f545e91f45b9885095710b35951162c79bbff9715a6e8",
     "tests/test_config_paths.py": "872b3ba65bcf2c26bc44d67bee99e4e22929918d4b1a459902f532ebe0b29edb",
-    "tests/test_demo_cli.py": "e286ef3f610bf66fdba7ec3b605da233cb00e1db30c0354d1d56b6fa06001ed6",
+    "tests/test_demo_cli.py": "f4f356b03bd24e85aeb9a4ec3632183267c553b0b66a8fd70ce1508e7977993f",
     "tests/test_document_reader.py": "b32d673649c9977905ead44261cc858319f1886da9546d3191fbf0d81722509f",
     "tests/test_embedder_model_dimension.py": "94196a6caae5f99e7f52b5eb35852f1ef74cc02967376b2f3751d99dfc1cf750",
     "tests/test_llm_adjudicator.py": "8d06ca487c6846793d6b298d94c81f1b205f2f44dc08ac58815c01e6cf1ac018",
@@ -49,7 +49,7 @@
     "tests/test_tier2_phrase_filtering.py": "f1b8026331b634a45faa5aa004da29830f913721b3eb52d754f5a885454cc5a3",
     "tools/release_template/.env.example": "ac286eab3df42e193c85b39898bc97addd6165207b96f4f3922ee57f651ffa81",
     "tools/release_template/.gitattributes": "23302dd90b8bb74b44d365fafef8df20f809b61cb347023951ecf60a88a29651",
-    "tools/release_template/.github/workflows/ci.yml": "f4de366b8444a5d308004d3e417906c9bc696730828e68bafd367c530a01c64f",
+    "tools/release_template/.github/workflows/ci.yml": "2c784784bd6c04a5a51411b2d46291ca9761d78c7afe5dba764d8d3d8669fb0d",
     "tools/release_template/.gitignore": "2cf0e804b0c67c59a022460193fc1c611c6c66f3ef789fab003d53639ebc5e5c",
     "tools/release_template/CHANGELOG.md": "018c05401a28325b47d290f708fdc73c6f539c2c49edfada2115d1687b2f93bf",
     "tools/release_template/CONTRIBUTING.md": "b74c1d388c8d9373838f73d5b75a592a57c3d262fff491b37bd35a8622d7a33d",
@@ -64,7 +64,7 @@
     "tools/release_template/requirements/tested-windows-py312.txt": "53ffe1cafcc12c7af387704239c638e04d6189c53b9468603d97501c9f991d95",
     "tools/release_template/src/fintech_adoption/__init__.py": "2f31baea3a157913e4f52a8e1e71e29c239c8c5351e59d48ee2b893d8c558f25"
   },
-  "builder_sha256": "187e41b7101f200a12345c7dc41e7761be320c1b51dc0bac2d7006d476cff085",
+  "builder_sha256": "994856255d637f64e5856ee733fa6067ae9ce6dff2514e3ad81cb63f8338ec4f",
   "excluded": [
     "raw data",
     "manuscripts",
@@ -76,7 +76,7 @@
   "files_sha256": {
     ".env.example": "ac286eab3df42e193c85b39898bc97addd6165207b96f4f3922ee57f651ffa81",
     ".gitattributes": "23302dd90b8bb74b44d365fafef8df20f809b61cb347023951ecf60a88a29651",
-    ".github/workflows/ci.yml": "f4de366b8444a5d308004d3e417906c9bc696730828e68bafd367c530a01c64f",
+    ".github/workflows/ci.yml": "2c784784bd6c04a5a51411b2d46291ca9761d78c7afe5dba764d8d3d8669fb0d",
     ".gitignore": "2cf0e804b0c67c59a022460193fc1c611c6c66f3ef789fab003d53639ebc5e5c",
     "CHANGELOG.md": "018c05401a28325b47d290f708fdc73c6f539c2c49edfada2115d1687b2f93bf",
     "CONTRIBUTING.md": "b74c1d388c8d9373838f73d5b75a592a57c3d262fff491b37bd35a8622d7a33d",
@@ -97,7 +97,7 @@
     "MANIFEST.in": "40e8b5f5625d5a406f47707be59e288a4a94c9d54471082c09d27c2f4c8b4fd0",
     "pyproject.toml": "4f7e988134f5a105ec5d5ef6c4355941ce13bba87c652268e9617b38f989d7bf",
     "README.md": "4b248cf9ae2c38b8dfe9e860b51c2e78e26db0541b76e0d464909cae78add854",
-    "requirements/tested-windows-py312.txt": "53ffe1cafcc12c7af387704239c638e04d6189c53b9468603d97501c9f991d95",
+    "requirements/tested-windows-py312.txt": "86a79f2cd31ef967883d73e1861665802c67121391bd00d60d154354e2b99f54",
     "results/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "src/fintech_adoption/__init__.py": "2f31baea3a157913e4f52a8e1e71e29c239c8c5351e59d48ee2b893d8c558f25",
     "src/fintech_adoption/aggregator.py": "d5d296f0ce696aab130ade9086ee78f33fa94845d63f0363e45473518d496d96",
@@ -123,7 +123,7 @@
     "tests/test_baseline_indices.py": "3d1a97d4ee48534505146e74bc38f5114391364a6567fc7cb09861ba99846ee7",
     "tests/test_build_fta_panel_gate.py": "5291c19674cf4b9a979f545e91f45b9885095710b35951162c79bbff9715a6e8",
     "tests/test_config_paths.py": "850a3abfa95b9636caa6c3bd72075ee371473d00d66959f5da3e697aacf4692b",
-    "tests/test_demo_cli.py": "617b1039e01a50b34bd11b03cf8656c7e6dec7ad0466d4448fadd9881e16ad56",
+    "tests/test_demo_cli.py": "1ce8159c21ed9d5b1edc6a834e2ef8f020d369dfac7052c152ffff23e1e641d1",
     "tests/test_document_reader.py": "19b40f1cf194f95c536ee7550d1c8510dbe46ab9e2a891b29d6f8af1700aa96b",
     "tests/test_embedder_model_dimension.py": "155f31bee7dff29a91969777f865de1ef44895ab59c1f39bfae8924773c941e4",
     "tests/test_llm_adjudicator.py": "d13f8378b57b78717c1a1fc3c2b0a49b8db8a6433cc9cf6fd60e5e595a5f8e5b",
